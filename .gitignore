@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# SQLite databases (we don't want to commit 30MB+ of raw data)
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Output CSVs (optional, but good practice not to commit generated files)
+daily_summary.csv
+validation_report.csv
