@@ -1,4 +1,4 @@
-DB_URL = "sqlite:///crypto.db"
+DB_URL = "sqlite:///data/crypto.db"
 API_URL = "https://api.coingecko.com/api/v3/coins/markets"
 
 PARAMS = {

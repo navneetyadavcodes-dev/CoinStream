@@ -2,17 +2,17 @@ import schedule
 import time
 import logging
 
-from db import create_tables
-from ingestion import fetch_data, store_raw
-from processing import process_and_store
-from aggregation import generate_daily_summary
-from validation import validate_data
+from src.db import create_tables
+from src.ingestion import fetch_data, store_raw
+from src.processing import process_and_store
+from src.aggregation import generate_daily_summary
+from src.validation import validate_data
 
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("app.log"),
+        logging.FileHandler("logs/app.log"),
         logging.StreamHandler()
     ]
 )

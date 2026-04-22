@@ -1,5 +1,5 @@
 import pandas as pd
-from db import engine
+from src.db import engine
 
 def validate_data():
     df = pd.read_sql("SELECT * FROM clean_prices", engine)
@@ -35,4 +35,4 @@ def validate_data():
                 "Description": "Time gap greater than 3 hours detected"
             })
 
-    pd.DataFrame(report, columns=["Date", "Cryptocurrency", "Type of issue", "Description"]).to_csv("validation_report.csv", index=False)
+    pd.DataFrame(report, columns=["Date", "Cryptocurrency", "Type of issue", "Description"]).to_csv("data/validation_report.csv", index=False)

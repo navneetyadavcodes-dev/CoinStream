@@ -1,5 +1,5 @@
 import pandas as pd
-from db import engine
+from src.db import engine
 
 def generate_daily_summary():
     df = pd.read_sql("SELECT * FROM clean_prices", engine)
@@ -29,4 +29,4 @@ def generate_daily_summary():
 
     summary["missing_hours"] = missing_list
 
-    summary.to_csv("daily_summary.csv", index=False)
+    summary.to_csv("data/daily_summary.csv", index=False)

@@ -1,7 +1,7 @@
 from datetime import datetime
 import pandas as pd
 from sqlalchemy import text
-from db import engine
+from src.db import engine
 
 def process_and_store(data):
     if data is None:

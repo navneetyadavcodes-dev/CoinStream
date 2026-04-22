@@ -4,8 +4,8 @@ import json
 import logging
 from datetime import datetime
 from sqlalchemy import text
-from db import engine
-import config
+from src.db import engine
+from src import config
 
 logger = logging.getLogger(__name__)
 

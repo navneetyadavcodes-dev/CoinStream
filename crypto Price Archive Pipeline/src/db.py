@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine, text
 
-from config import DB_URL
+from src.config import DB_URL
 
 engine = create_engine(DB_URL)
 
