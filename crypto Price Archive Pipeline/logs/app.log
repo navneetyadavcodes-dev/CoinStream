@@ -1,0 +1,15 @@
+2026-04-22 10:20:31,323 - INFO - Starting pipeline run...
+2026-04-22 10:20:32,329 - INFO - Successfully fetched data from CoinGecko API
+2026-04-22 10:20:32,333 - INFO - Raw data stored successfully
+2026-04-22 10:26:27,859 - INFO - Starting pipeline run...
+2026-04-22 10:26:28,792 - INFO - Successfully fetched data from CoinGecko API
+2026-04-22 10:26:28,796 - INFO - Raw data stored successfully
+2026-04-22 10:26:28,841 - INFO - Pipeline run complete
+2026-04-22 10:34:03,341 - INFO - Starting pipeline run...
+2026-04-22 10:34:04,162 - INFO - Successfully fetched data from CoinGecko API
+2026-04-22 10:34:04,167 - INFO - Raw data stored successfully
+2026-04-22 10:34:04,208 - INFO - Pipeline run complete
+2026-04-22 10:38:31,701 - INFO - Starting pipeline run...
+2026-04-22 10:38:32,544 - INFO - Successfully fetched data from CoinGecko API
+2026-04-22 10:38:32,548 - INFO - Raw data stored successfully
+2026-04-22 10:38:32,591 - INFO - Pipeline run complete
